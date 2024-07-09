@@ -7,19 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A401EDC52C30B584004C03D4 /* LogFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A401EDC42C30B584004C03D4 /* LogFormView.swift */; };
 		A495438A2C0D0EB600B09A6B /* AIExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49543892C0D0EB600B09A6B /* AIExpenseTrackerApp.swift */; };
 		A495438C2C0D0EB600B09A6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495438B2C0D0EB600B09A6B /* ContentView.swift */; };
 		A495438E2C0D0EB700B09A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A495438D2C0D0EB700B09A6B /* Assets.xcassets */; };
 		A49543922C0D0EB700B09A6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49543912C0D0EB700B09A6B /* Preview Assets.xcassets */; };
+		A49543992C0D10E500B09A6B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A49543982C0D10E500B09A6B /* GoogleService-Info.plist */; };
+		A495439D2C0D118700B09A6B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A495439C2C0D118700B09A6B /* FirebaseFirestore */; };
+		A495439F2C0D118700B09A6B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A495439E2C0D118700B09A6B /* FirebaseFirestoreSwift */; };
+		A49B21732C292DCF00ADE652 /* LogFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49B21722C292DCF00ADE652 /* LogFormViewModel.swift */; };
+		A4A1CE602C12021100EB272A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A1CE5F2C12021100EB272A /* AppDelegate.swift */; };
+		A4A1CE642C12075000EB272A /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = A4A1CE632C12075000EB272A /* Factory */; };
+		A4A1CE692C12086500EB272A /* Firebase+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A1CE682C12086500EB272A /* Firebase+Injection.swift */; };
+		A4C1F8782C28B93500F416D2 /* logListContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C1F8772C28B93500F416D2 /* logListContainerView.swift */; };
+		A4F4399B2C20722A00C73304 /* SelectSortOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4399A2C20722A00C73304 /* SelectSortOrderView.swift */; };
+		A4F4399D2C20765D00C73304 /* CategoryImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4399C2C20765D00C73304 /* CategoryImageView.swift */; };
+		A4F4399F2C2076E900C73304 /* LogItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4399E2C2076E900C73304 /* LogItemView.swift */; };
+		A4F439A12C207A3100C73304 /* LogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F439A02C207A3100C73304 /* LogListView.swift */; };
+		A4FBDAEF2C1F76E00020DE28 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBDAEE2C1F76E00020DE28 /* Category.swift */; };
+		A4FBDAF12C1F77570020DE28 /* ExpenseLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBDAF02C1F77570020DE28 /* ExpenseLog.swift */; };
+		A4FBDAF32C1F7C4D0020DE28 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBDAF22C1F7C4D0020DE28 /* Sort.swift */; };
+		A4FBDAF52C1F7CAE0020DE28 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBDAF42C1F7CAE0020DE28 /* Utils.swift */; };
+		A4FBDAF72C1F7D880020DE28 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBDAF62C1F7D880020DE28 /* DatabaseManager.swift */; };
+		A4FBDAFA2C1F7FBF0020DE28 /* LogListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBDAF92C1F7FBF0020DE28 /* LogListViewModel.swift */; };
+		A4FBDAFD2C1F80B00020DE28 /* FilterCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBDAFC2C1F80B00020DE28 /* FilterCategoriesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A401EDC42C30B584004C03D4 /* LogFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFormView.swift; sourceTree = "<group>"; };
 		A49543862C0D0EB600B09A6B /* AIExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49543892C0D0EB600B09A6B /* AIExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIExpenseTrackerApp.swift; sourceTree = "<group>"; };
 		A495438B2C0D0EB600B09A6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A495438D2C0D0EB700B09A6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A495438F2C0D0EB700B09A6B /* AIExpenseTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AIExpenseTracker.entitlements; sourceTree = "<group>"; };
 		A49543912C0D0EB700B09A6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A49543982C0D10E500B09A6B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A49B21722C292DCF00ADE652 /* LogFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFormViewModel.swift; sourceTree = "<group>"; };
+		A4A1CE5E2C11FBB300EB272A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A4A1CE5F2C12021100EB272A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4A1CE682C12086500EB272A /* Firebase+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase+Injection.swift"; sourceTree = "<group>"; };
+		A4C1F8772C28B93500F416D2 /* logListContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logListContainerView.swift; sourceTree = "<group>"; };
+		A4F4399A2C20722A00C73304 /* SelectSortOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSortOrderView.swift; sourceTree = "<group>"; };
+		A4F4399C2C20765D00C73304 /* CategoryImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImageView.swift; sourceTree = "<group>"; };
+		A4F4399E2C2076E900C73304 /* LogItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogItemView.swift; sourceTree = "<group>"; };
+		A4F439A02C207A3100C73304 /* LogListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListView.swift; sourceTree = "<group>"; };
+		A4FBDAEE2C1F76E00020DE28 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		A4FBDAF02C1F77570020DE28 /* ExpenseLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseLog.swift; sourceTree = "<group>"; };
+		A4FBDAF22C1F7C4D0020DE28 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
+		A4FBDAF42C1F7CAE0020DE28 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A4FBDAF62C1F7D880020DE28 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		A4FBDAF92C1F7FBF0020DE28 /* LogListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListViewModel.swift; sourceTree = "<group>"; };
+		A4FBDAFC2C1F80B00020DE28 /* FilterCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCategoriesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A1CE642C12075000EB272A /* Factory in Frameworks */,
+				A495439D2C0D118700B09A6B /* FirebaseFirestore in Frameworks */,
+				A495439F2C0D118700B09A6B /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +79,7 @@
 			children = (
 				A49543882C0D0EB600B09A6B /* AIExpenseTracker */,
 				A49543872C0D0EB600B09A6B /* Products */,
+				A495439B2C0D118700B09A6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,9 +94,17 @@
 		A49543882C0D0EB600B09A6B /* AIExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
+				A4FBDAFB2C1F809A0020DE28 /* Views */,
+				A4FBDAF82C1F7FA60020DE28 /* ViewModels */,
+				A4A1CE612C12068000EB272A /* Models */,
+				A4A1CE652C12080B00EB272A /* Utils */,
+				A4A1CE5E2C11FBB300EB272A /* Info.plist */,
+				A4FBDAF62C1F7D880020DE28 /* DatabaseManager.swift */,
 				A49543892C0D0EB600B09A6B /* AIExpenseTrackerApp.swift */,
+				A4A1CE5F2C12021100EB272A /* AppDelegate.swift */,
 				A495438B2C0D0EB600B09A6B /* ContentView.swift */,
 				A495438D2C0D0EB700B09A6B /* Assets.xcassets */,
+				A49543982C0D10E500B09A6B /* GoogleService-Info.plist */,
 				A495438F2C0D0EB700B09A6B /* AIExpenseTracker.entitlements */,
 				A49543902C0D0EB700B09A6B /* Preview Content */,
 			);
@@ -67,6 +117,71 @@
 				A49543912C0D0EB700B09A6B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A495439B2C0D118700B09A6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4A1CE612C12068000EB272A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A4FBDAEE2C1F76E00020DE28 /* Category.swift */,
+				A4FBDAF02C1F77570020DE28 /* ExpenseLog.swift */,
+				A4FBDAF22C1F7C4D0020DE28 /* Sort.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4A1CE652C12080B00EB272A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A4FBDAF42C1F7CAE0020DE28 /* Utils.swift */,
+				A4A1CE662C12081B00EB272A /* Firebase */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A4A1CE662C12081B00EB272A /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				A4A1CE672C12084400EB272A /* Services */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		A4A1CE672C12084400EB272A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A4A1CE682C12086500EB272A /* Firebase+Injection.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A4FBDAF82C1F7FA60020DE28 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A4FBDAF92C1F7FBF0020DE28 /* LogListViewModel.swift */,
+				A49B21722C292DCF00ADE652 /* LogFormViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A4FBDAFB2C1F809A0020DE28 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4FBDAFC2C1F80B00020DE28 /* FilterCategoriesView.swift */,
+				A4F4399A2C20722A00C73304 /* SelectSortOrderView.swift */,
+				A4F4399C2C20765D00C73304 /* CategoryImageView.swift */,
+				A4F4399E2C2076E900C73304 /* LogItemView.swift */,
+				A4F439A02C207A3100C73304 /* LogListView.swift */,
+				A4C1F8772C28B93500F416D2 /* logListContainerView.swift */,
+				A401EDC42C30B584004C03D4 /* LogFormView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +200,11 @@
 			dependencies = (
 			);
 			name = AIExpenseTracker;
+			packageProductDependencies = (
+				A495439C2C0D118700B09A6B /* FirebaseFirestore */,
+				A495439E2C0D118700B09A6B /* FirebaseFirestoreSwift */,
+				A4A1CE632C12075000EB272A /* Factory */,
+			);
 			productName = AIExpenseTracker;
 			productReference = A49543862C0D0EB600B09A6B /* AIExpenseTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +233,10 @@
 				Base,
 			);
 			mainGroup = A495437D2C0D0EB600B09A6B;
+			packageReferences = (
+				A495439A2C0D114800B09A6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A4A1CE622C12075000EB272A /* XCRemoteSwiftPackageReference "Factory" */,
+			);
 			productRefGroup = A49543872C0D0EB600B09A6B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +253,7 @@
 			files = (
 				A49543922C0D0EB700B09A6B /* Preview Assets.xcassets in Resources */,
 				A495438E2C0D0EB700B09A6B /* Assets.xcassets in Resources */,
+				A49543992C0D10E500B09A6B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +264,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A1CE602C12021100EB272A /* AppDelegate.swift in Sources */,
+				A49B21732C292DCF00ADE652 /* LogFormViewModel.swift in Sources */,
+				A4C1F8782C28B93500F416D2 /* logListContainerView.swift in Sources */,
+				A4FBDAFD2C1F80B00020DE28 /* FilterCategoriesView.swift in Sources */,
+				A4F4399F2C2076E900C73304 /* LogItemView.swift in Sources */,
+				A4FBDAEF2C1F76E00020DE28 /* Category.swift in Sources */,
+				A4F439A12C207A3100C73304 /* LogListView.swift in Sources */,
+				A4F4399B2C20722A00C73304 /* SelectSortOrderView.swift in Sources */,
 				A495438C2C0D0EB600B09A6B /* ContentView.swift in Sources */,
+				A4FBDAF12C1F77570020DE28 /* ExpenseLog.swift in Sources */,
+				A4FBDAF32C1F7C4D0020DE28 /* Sort.swift in Sources */,
+				A401EDC52C30B584004C03D4 /* LogFormView.swift in Sources */,
+				A4A1CE692C12086500EB272A /* Firebase+Injection.swift in Sources */,
+				A4F4399D2C20765D00C73304 /* CategoryImageView.swift in Sources */,
 				A495438A2C0D0EB600B09A6B /* AIExpenseTrackerApp.swift in Sources */,
+				A4FBDAF52C1F7CAE0020DE28 /* Utils.swift in Sources */,
+				A4FBDAF72C1F7D880020DE28 /* DatabaseManager.swift in Sources */,
+				A4FBDAFA2C1F7FBF0020DE28 /* LogListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +415,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AIExpenseTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI Expense tracker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -292,10 +436,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ai-expense-tracker.AIExpenseTracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
 		};
@@ -312,6 +457,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AIExpenseTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI Expense tracker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -330,10 +478,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ai-expense-tracker.AIExpenseTracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};
@@ -359,6 +508,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A495439A2C0D114800B09A6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+		A4A1CE622C12075000EB272A /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A495439C2C0D118700B09A6B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A495439A2C0D114800B09A6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A495439E2C0D118700B09A6B /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A495439A2C0D114800B09A6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		A4A1CE632C12075000EB272A /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4A1CE622C12075000EB272A /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A495437E2C0D0EB600B09A6B /* Project object */;
 }
