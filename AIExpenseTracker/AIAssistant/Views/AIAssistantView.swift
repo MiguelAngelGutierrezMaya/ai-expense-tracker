@@ -16,10 +16,10 @@ enum ChatType: String, Identifiable, CaseIterable {
 
 struct AIAssistantView: View {
     @State private var textChatVM = AIAssistantTextChatViewModel(
-        apiKey: Constants.apiKey
+        apiKey: Private.apiKey
     )
     @State private var voiceChatVM = AIAssistantVoiceChatViewModel(
-        apiKey: Constants.apiKey
+        apiKey: Private.apiKey
     )
     @State private var chatType = ChatType.text
     

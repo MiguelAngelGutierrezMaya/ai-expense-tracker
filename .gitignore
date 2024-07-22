@@ -66,3 +66,4 @@ node_modules/
 .env
 
 AIExpenseTracker/GoogleService-Info.plist
+AIExpenseTracker/Utils/Private.swift
